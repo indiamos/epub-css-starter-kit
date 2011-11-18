@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size:xx-large%;
+  font-size:xx-large;
   margin-bottom: 3em;
 }
 h2 {
@@ -97,7 +97,7 @@ p {
   margin: 0;
   text-align: justify;
   orphans: 2;
-  widow: 2;
+  widows: 2;
   -webkit-hyphenate-before:3;
   hyphenate-before:3;
   -webkit-hyphenate-after:3;
@@ -117,7 +117,7 @@ p {
 
 /* lists */
 ul, ol, dl {
-  margin:1em 0em 1em 0em;
+  margin:1em 0 1em 0;
 }
 
 li {
@@ -140,8 +140,8 @@ pre {
 
 /* sidebar */
 div.note {
-  margin:1em 0em 1em 0em !important;
-  padding:1em 0em 1em 0em !important;
+  margin:1em 0 1em 0 !important;
+  padding:1em 0 1em 0 !important;
   border:1px solid #178E7D;
   page-break-inside:avoid;
 }
@@ -154,7 +154,7 @@ p.note-title {
   -webkit-hyphens:none;
   -moz-hyphens:none;
   hyphens:none;
-  /* margin:0em 1em 0em 1em; */
+  /* margin:0 1em 0 1em; */
 }
 
 div.note p,
